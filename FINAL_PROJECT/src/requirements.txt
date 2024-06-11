@@ -1,21 +1,21 @@
 
-//MySQL
--> npm i express mysql
+-- MySQL --
+  -> npm i express mysql
 
-//PostgreSQL
--> npm install pg 
+-- PostgreSQL --
+  -> npm install pg 
 
+-- Module --
+  -> npm install bcrypt
 
--> npm install bcrypt
+-- For MySQL --
+  -> node src/CRUD_postman/MySQL/main.js //to post data
+  -> node src/CRUD_postman/MySQL/fetch.js //to get data
+  -> node src/CRUD_postman/MySQL/update.js //to change values
+  -> node src/CRUD_postman/MySQL/delete.js //to delete tables
 
-//For MYSQL
--> node src/CRUD_postman/MySQL/main.js //to post data
--> node src/CRUD_postman/MySQL/fetch.js //to get data
--> node src/CRUD_postman/MySQL/update.js //to change values
--> node src/CRUD_postman/MySQL/delete.js //to delete tables
-
-//FOR POSTGRESQL
--> node src/CRUD_postman/PostgreSQL/main.js //to post data
--> node src/CRUD_postman/PostgreSQL/fetch.js //to get data
--> node src/CRUD_postman/PostgreSQL/update.js //to change values
--> node src/CRUD_postman/PostgreSQL/delete.js //to delete tables
+-- For PostgreSQL --
+  -> node src/CRUD_postman/PostgreSQL/main.js //to post data
+  -> node src/CRUD_postman/PostgreSQL/fetch.js //to get data
+  -> node src/CRUD_postman/PostgreSQL/update.js //to change values
+  -> node src/CRUD_postman/PostgreSQL/delete.js //to delete tables
