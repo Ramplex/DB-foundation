@@ -34,14 +34,14 @@ This folder contains the scripts and configurations needed to interact with the 
 
 - **DB Scripts**: Contains the database scripts and additional queries.
   - **MySQL**:
-    - `mysql_schema.sql`
-    - `mysql_triggers.sql`
-    - `mysql_procedures.sql`
-    - `mysql_populate.sql`
+    - `Nully_DB.sql`
+    - `triggers.sql`
+    - `procedures.sql`
+    - `populate_nully.sql`
   - **PostgreSQL**:
-    - `postgresql_schema.sql`
-    - `postgresql_triggers.sql`
-    - `postgresql_procedures.sql`
+    - `Nully_DB.sql`
+    - `triggers.sql`
+    - `procedures.sql`
 
 ## Usage Instructions
 
@@ -60,7 +60,7 @@ To run the scripts and use the Nully application, make sure you have the followi
    - Run the corresponding script for MySQL or PostgreSQL found in the `db_scripts` folder.
 
 2. **Populate the database**:
-   - Use the data population script (`mysql_populate.sql` or `postgresql_populate.sql`).
+   - Use the data population script (`populate_nully.sql`).
 
 3. **Configure triggers and procedures**:
    - Execute the triggers and procedures scripts.
