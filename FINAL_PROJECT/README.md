@@ -29,8 +29,8 @@ This folder contains the scripts and configurations needed to interact with the 
 ##### Subfolders in `src`:
 
 - **CRUD Scripts**: Contains scripts for CRUD operations in MySQL and PostgreSQL.
-  - `mysql_crud.sql`
-  - `postgresql_crud.sql`
+  - `mysql`
+  - `postgresql`
 
 - **DB Scripts**: Contains the database scripts and additional queries.
   - **MySQL**:
