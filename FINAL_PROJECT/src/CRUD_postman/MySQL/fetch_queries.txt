@@ -1,0 +1,17 @@
+-- Get the user’s information --
+SELECT * FROM users WHERE username = 'usernam';
+
+-- Get the boards created by the user --
+SELECT b.* FROM boards b JOIN users u ON b.user_id = u.id WHERE u.username = 'username';
+
+-- Get the cards created by the user --
+SELECT c.* FROM cards c JOIN lists l ON c.list_id = l.id JOIN boards b ON l.board_id = b.id JOIN users u ON b.user_id = u.id WHERE u.username = 'username';
+
+-- Get the comments made by the user --
+SELECT cm.* FROM comments cm JOIN users u ON cm.user_id = u.id WHERE u.username = 'username';
+
+-- Get the boards where the user is a member --
+SELECT b.* FROM boards b JOIN board_user bu ON b.id = bu.board_id JOIN users u ON bu.user_id = u.id WHERE u.username = 'username';
+
+-- Get the cards where the user is a member --
+SELECT c.* FROM cards c JOIN card_user cu ON c.id = cu.card_id JOIN users u ON cu.user_id = u.id WHERE u.username = 'username';
