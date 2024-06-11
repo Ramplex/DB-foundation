@@ -9,7 +9,7 @@ This repository contains all the documentation and scripts related to the Nully 
 1. **Project Paper** - Detailed description of the Nully project.
 2. **Business Model** - Business model for the Nully application.
 3. **Poster** - Promotional poster for the Nully application.
-4. **Technical Decisions** - Technical decisions regarding the Nully application.
+4. **Technical Report** - Technical decisions regarding the Nully application.
 5. **User Stories** - User stories for the Nully application.
 
 ### Folders
